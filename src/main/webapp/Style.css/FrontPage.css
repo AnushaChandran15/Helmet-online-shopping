@@ -1,6 +1,15 @@
 @charset "ISO-8859-1";
+*
+{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
 body
 {
+	display:flex;
+	justify-content:center;
+	align-items:center;
 	width:100vw;
 	height:100vh;
 	/*background-image: url("../Images/bike.jpg");*/
@@ -9,14 +18,42 @@ body
 }
 #pageDiv
 {
-	height:95%;
-	width:98%;
-	border:1px solid black;
+	height:100%;
+	width:100%;
 }
 #homeDiv
 {
-	height:8%;
+	position:relative;
+	background-image: url("../Images/homeImg.jpg");
+	height:80%;
 	width:100%;
-	border:1px solid red;
-	background-color:#0e9dac;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:0px 90%;
+	/*background-color:#0e9dac;*/
+}
+#usersEnterDiv
+{
+	display:flex;
+	justify-content: center;
+	align-items:center;
+	height:10%;
+	width:30%;
+	position:absolute;
+	left:65%;
+	/*border:1px solid red;*/
+	gap:30px;
+}
+.userEnter
+{
+	border-radius:15%;
+	height:50%;
+	width:20%;
+	border:1px solid black;
+	text-align:center;
+}
+a
+{
+	text-decoration: none;
+	color:black;
 }
