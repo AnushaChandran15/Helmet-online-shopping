@@ -1,0 +1,82 @@
+@charset "ISO-8859-1";
+*
+{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family: sans-serif;
+}
+#signupDiv
+{
+	width:100vw;
+	height:100vh;
+	background-image: url("../Images/MotorBike.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background-position:40% 50%;
+	position:relative;
+}
+#signup
+{
+	display:flex;
+	justify-content: center;
+	align-items:center;
+	flex-direction: column;
+	width:25%;
+	gap:15px;
+	border: 1px solid rgba(255,255,255,0.5);
+	backdrop-filter: blur(10px);
+	border-radius: 5px;
+	padding:5px;
+}
+form
+{
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	flex-direction: column;
+	gap:10px;
+	width:100%;
+}
+form > div
+{
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction:column;
+	width:70%;
+	gap:10px;
+}
+label
+{
+	color:#fff;
+}
+input
+{
+	width:100%;
+	background-color:transparent;
+	border:none;
+	border-bottom: 1px solid rgba(255,255,255,0.5);
+	outline:none;
+	color:#fff;
+}
+input[type="submit"]
+{
+	border:none;
+	background: #0080ff;
+	width: 120px;
+	height:40px;
+	color:#ffffff;
+	border-radius: 40px;
+	font-size:16px;
+	
+}
+h1
+{
+	color:#fff;
+	text-align:center;
+	padding: 5px;
+}

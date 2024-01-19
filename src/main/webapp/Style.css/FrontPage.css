@@ -24,7 +24,7 @@ body
 #homeDiv
 {
 	position:relative;
-	background-image: url("../Images/homeImg.jpg");
+	background-image: url("../Images/FrontpageBG1.jpg");
 	height:80%;
 	width:100%;
 	background-size:cover;
@@ -46,11 +46,12 @@ body
 }
 .userEnter
 {
-	border-radius:15%;
+	border-radius:18%;
 	height:50%;
 	width:20%;
-	border:1px solid black;
+	border:1px solid Black;
 	text-align:center;
+	font-size:px;
 }
 a
 {
